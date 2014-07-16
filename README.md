@@ -32,6 +32,6 @@ or if was emonCMS installed using apt, run
     
 and then clone the hub module using
     
-    git clone https://github.com/otherWIP/hub.git
+    sudo git clone https://github.com/otherWIP/hub.git
     
 Once the module is in place, log into emonCMS, open "admin" tab and "Update & check" database.
