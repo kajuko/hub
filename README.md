@@ -14,6 +14,7 @@ NOTE - This is not the main emonhub repo and it will not work this way if emonhu
     git clone https://github.com/otherWIP/dev-emonhub.git && dev-emonhub/install.sh
     cd emonhub
     git checkout emoncms_integration
+    sudo service emonhub restart
     
 This also enables emonHub "myip" integration with emonCMS including emonCMS.org, but only "myip" OR "hub" can be enabled for each dispatcher/emonCMS instance.    
 
