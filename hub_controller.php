@@ -14,7 +14,7 @@
 
     if ($route->format == 'html')
     {
-      if ($route->action == "hubs") $result = view("Modules/hub/views/hub_view.php",array());
+      if ($route->action == "hubs") $result = view("Modules/hub/hub_view.php",array());
 
 	
     }
